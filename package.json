@@ -1,0 +1,32 @@
+{
+  "name": "@hotmart/hotmart-mini-hls",
+  "version": "1.0.0",
+  "description": "Hotmart Player Mini HLS for video.js",
+  "main": "build/index.js",
+  "url": "https://github.com/Hotmart-Org/player-uploader.git",
+  "author": "Matheus Elias R. Moreira",
+  "scripts": {
+    "start": "node --inspect-brk=9229 -r esm index.js",
+    "build": "webpack --watch --colors --progress"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-core": "^6.26.0",
+    "crypto-js": "^3.1.9-1",
+    "m3u8-parser": "^4.2.0",
+    "videojs-contrib-media-sources": "^4.7.2"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.2",
+    "babel-plugin-array-includes": "^2.0.3",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "compression-webpack-plugin": "^1.0.1",
+    "esm": "^3.0.17",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "webpack": "^3.6.0"
+  }
+}

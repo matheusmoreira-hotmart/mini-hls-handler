@@ -1,0 +1,13 @@
+{
+  "presets": ["stage-3",
+    ["env", {
+      "targets": {
+        "browsers": ["last 2 versions", "safari >= 8"]
+      }
+    }]
+  ],
+  "plugins": [
+    "transform-runtime",
+    "array-includes"
+  ]
+}
