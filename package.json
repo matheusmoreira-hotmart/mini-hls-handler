@@ -10,7 +10,7 @@
     "build": "webpack --watch --colors --progress"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "babel-core": "^6.26.0",
     "crypto-js": "^3.1.9-1",
     "m3u8-parser": "^4.2.0",
